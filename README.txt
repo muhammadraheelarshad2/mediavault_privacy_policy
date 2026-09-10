@@ -14,7 +14,7 @@ Publishing:
 3. Keep the policy URL publicly accessible without login.
 
 Contact:
-support@mediavault.app
+info@hscreatorssoftware.com
 
 Effective date:
 September 10, 2026
