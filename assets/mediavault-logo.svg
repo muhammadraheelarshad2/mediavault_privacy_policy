@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 108" role="img" aria-label="MediaVault">
+  <defs>
+    <linearGradient id="tile" x1="12" y1="8" x2="98" y2="102" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#11234C"/><stop offset=".55" stop-color="#081631"/><stop offset="1" stop-color="#03091B"/>
+    </linearGradient>
+    <linearGradient id="shield" x1="28" y1="22" x2="58" y2="86" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#56F4FF"/><stop offset=".48" stop-color="#08CAE9"/><stop offset="1" stop-color="#0094D0"/>
+    </linearGradient>
+    <linearGradient id="shieldR" x1="54" y1="21" x2="80" y2="86" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#C48BFF"/><stop offset=".45" stop-color="#8E45FF"/><stop offset="1" stop-color="#5424D7"/>
+    </linearGradient>
+    <linearGradient id="badge" x1="58" y1="66" x2="96" y2="101" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#20E9FF"/><stop offset=".55" stop-color="#517DFF"/><stop offset="1" stop-color="#A849FF"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="100" height="100" rx="23" fill="url(#tile)"/>
+  <path d="M27 6.2h54c11.9 0 20.8 8.9 20.8 20.8v54c0 11.9-8.9 20.8-20.8 20.8H27C15.1 101.8 6.2 92.9 6.2 81V27C6.2 15.1 15.1 6.2 27 6.2Z" fill="none" stroke="#244B66" stroke-width="2.2"/>
+  <path d="M52 19c17 0 30 14 30 32 0 19-14 33-31 33S22 70 22 52c0-18 13-33 30-33Z" fill="#0000DD" opacity=".14"/>
+  <path d="M65 22c17 5 26 20 23 37-3 17-16 28-30 27 14-15 18-42 7-64Z" fill="#873DFF" opacity=".12"/>
+  <path d="M54 20.5 78.2 30.2c1.9.8 3.1 2.6 2.9 4.7l-1.8 23.5C78.1 71.2 68.6 80.3 54 86.4c-14.6-6.1-24.1-15.2-25.3-28l-1.8-23.5c-.2-2.1 1-3.9 2.9-4.7Z" fill="url(#shield)"/>
+  <path d="M54 20.5 78.2 30.2c1.9.8 3.1 2.6 2.9 4.7l-1.8 23.5C78.1 71.2 68.6 80.3 54 86.4Z" fill="url(#shieldR)"/>
+  <path d="M44.2 36.9c-1.7-1.1-3.9.1-3.9 2.2v27.2c0 2.1 2.3 3.3 4 2.1l21-14c1.7-1.1 1.7-3.5 0-4.6Z" fill="#fff"/>
+  <rect x="56" y="64" width="41" height="38" rx="10.5" fill="url(#badge)"/>
+  <rect x="59" y="67" width="35" height="32" rx="8.4" fill="#071A3C"/>
+  <path d="M73.4 72.5c0-1.2 1-2.2 2.2-2.2h1.8c1.2 0 2.2 1 2.2 2.2v9.7h3.1c1.2 0 1.8 1.4 1 2.3l-5.5 6.2c-.9 1-2.5 1-3.4 0l-5.5-6.2c-.8-.9-.2-2.3 1-2.3h3.1Z" fill="#fff"/>
+  <path d="M67.7 89.8c1 0 1.8.8 1.8 1.8V93h14v-1.4c0-1 .8-1.8 1.8-1.8s1.8.8 1.8 1.8V94c0 1.5-1.2 2.7-2.7 2.7H68.6c-1.5 0-2.7-1.2-2.7-2.7v-2.4c0-1 .8-1.8 1.8-1.8Z" fill="#fff"/>
+  <circle cx="91.1" cy="93.8" r="2.6" fill="#FFB20A"/>
+</svg>
