@@ -6,6 +6,10 @@ Files:
 - privacy-policy.html     Same page under an explicit privacy-policy filename
 - assets/mediavault-logo.svg  Web-ready MediaVault brand icon
 
+Updated October 27, 2026: added Firebase (Analytics, Crashlytics, Performance Monitoring,
+Remote Config, Cloud Messaging) and Google AdMob / UMP consent sections. Billing / in-app purchases
+are NOT covered yet and must be added to the policy before Premium is released.
+
 Branding is based on the colors and logo artwork found in the MediaVault Android project.
 
 Publishing:
@@ -17,7 +21,7 @@ Contact:
 info@hscreatorssoftware.com
 
 Effective date:
-September 10, 2026
+October 27, 2026
 
 Note:
-This policy is written to match the current app implementation inspected from the supplied project. Review it with your legal/privacy advisor before publishing if you have additional backend services, analytics, advertising SDKs, data processors, or jurisdiction-specific requirements not represented in the supplied project.
+This policy is written to match the current app implementation inspected from the supplied project. Review it with your legal/privacy advisor before publishing if you have additional backend services, data processors, or jurisdiction-specific requirements not represented in the supplied project.
