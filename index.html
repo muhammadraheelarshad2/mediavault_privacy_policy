@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#EEF4FC">
-<meta name="description" content="MediaVault Privacy Policy — how MediaVault handles device media, downloads, network requests, private vault content, analytics, crash reporting and advertising.">
+<meta name="description" content="MediaVault Privacy Policy — how MediaVault handles device media, downloads, network requests, private vault content, analytics, crash reporting, advertising and optional purchases.">
 <title>Privacy Policy · MediaVault</title>
 <style>
 :root{
@@ -67,10 +67,10 @@ li{margin:7px 0}
   <div class="hero-card">
     <span class="kicker">Privacy &amp; transparency</span>
     <h1>Privacy Policy</h1>
-    <p class="lead">MediaVault is designed as a local-first video player, download manager and private media organizer. This policy explains what information the app accesses, when network services are involved, and how you can control your data. It also explains the Google Firebase and Google AdMob services used for app stability, analytics, notifications and advertising.</p>
+    <p class="lead">MediaVault is designed as a local-first video player, download manager and private media organizer. This policy explains what information the app accesses, when network services are involved, and how you can control your data. It also explains the Google Firebase, Google AdMob and Google Play Billing services used for app stability, analytics, notifications, advertising and optional Premium purchases.</p>
     <div class="meta">
-      <span>Effective date: October 27, 2026</span>
-      <span>App: MediaVault 1.0.2</span>
+      <span>Effective date: October 29, 2026</span>
+      <span>App: MediaVault 1.0</span>
       <span>Contact: info@hscreatorssoftware.com</span>
     </div>
   </div>
@@ -85,22 +85,23 @@ li{margin:7px 0}
   <a href="#network">3. Network &amp; downloads</a>
   <a href="#firebase">4. Firebase services</a>
   <a href="#ads">5. Advertising (AdMob)</a>
-  <a href="#permissions">6. Permissions</a>
-  <a href="#vault">7. Private Vault</a>
-  <a href="#storage">8. Storage &amp; retention</a>
-  <a href="#sharing">9. Sharing &amp; disclosure</a>
-  <a href="#security">10. Security</a>
-  <a href="#children">11. Children</a>
-  <a href="#choices">12. Your choices</a>
-  <a href="#changes">13. Changes</a>
-  <a href="#contact">14. Contact</a>
+  <a href="#billing">6. Purchases (Google Play)</a>
+  <a href="#permissions">7. Permissions</a>
+  <a href="#vault">8. Private Vault</a>
+  <a href="#storage">9. Storage &amp; retention</a>
+  <a href="#sharing">10. Sharing &amp; disclosure</a>
+  <a href="#security">11. Security</a>
+  <a href="#children">12. Children</a>
+  <a href="#choices">13. Your choices</a>
+  <a href="#changes">14. Changes</a>
+  <a href="#contact">15. Contact</a>
 </nav>
 
 <section class="content">
 <article class="card" id="scope">
 <h2>1. Scope</h2>
 <p>This Privacy Policy applies to the MediaVault Android application. It describes the current app's privacy practices and should be read together with any terms presented through Google Play or inside the app.</p>
-<p>MediaVault does not require an account for its core local media experience. The app does include Google Firebase services (analytics, crash reporting, performance monitoring, remote configuration and push messaging) and Google AdMob advertising, described in sections 4 and 5.</p>
+<p>MediaVault does not require an account for its core local media experience. The app does include Google Firebase services (analytics, crash reporting, performance monitoring, remote configuration and push messaging) and Google AdMob advertising, described in sections 4 and 5. Optional Premium purchases are handled by Google Play Billing, described in section 6.</p>
 </article>
 
 <article class="card" id="data">
@@ -154,59 +155,77 @@ li{margin:7px 0}
 <p>Learn how Google uses data from apps that use its services: <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">How Google uses information from sites or apps that use our services</a>.</p>
 </article>
 
+<article class="card" id="billing">
+<h2>6. Purchases and subscriptions (Google Play Billing)</h2>
+<p>MediaVault offers an optional Premium upgrade that removes ads. Premium can be bought as a monthly subscription, a yearly subscription or a one-time lifetime purchase. All purchases are made and billed through Google Play.</p>
+<h3>What MediaVault does and does not receive</h3>
+<ul>
+<li>Payments are processed by Google Play. MediaVault <strong>does not receive or store</strong> your card, bank or other payment details, and MediaVault does not operate its own payment server.</li>
+<li>The Google Play Billing library tells the app which Premium products you own so the app can show prices in your local currency, complete a purchase, restore it on a new device and turn ads off. This includes technical purchase information such as the product ID, purchase state, purchase token and whether the purchase has been acknowledged.</li>
+<li>MediaVault checks your Premium purchases with Google Play each time the app starts and when you tap <em>Restore Purchases</em>.</li>
+<li>Your Premium status is also saved on your device so ads stay off while you are offline. Google Play remains the source of truth, and clearing the app's data simply resets this saved status until it is checked again.</li>
+<li>Analytics may record that the Premium screen was opened and whether a purchase or restore was started, completed, cancelled or failed, together with the plan type (monthly, yearly or lifetime). It does not include payment details.</li>
+</ul>
+<h3>Subscriptions, cancellation and refunds</h3>
+<p>Subscriptions renew automatically through Google Play until you cancel. You can cancel or manage them at any time in the Google Play Store app under <em>Profile &rarr; Payments &amp; subscriptions &rarr; Subscriptions</em>, or from the <em>Manage in Google Play</em> button on the Premium screen. Uninstalling the app does not cancel a subscription. Refunds are handled under Google Play's refund policy. The lifetime option is a one-time purchase and does not renew.</p>
+<p>See the <a href="https://play.google.com/about/play-terms/" target="_blank" rel="noopener">Google Play Terms of Service</a> and the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a> for how Google handles billing data.</p>
+</article>
+
 <article class="card" id="permissions">
-<h2>6. Android permissions</h2>
+<h2>7. Android permissions</h2>
 <ul>
 <li><strong>Video/media access:</strong> used to show and manage videos available on your device and to import videos into MediaVault.</li>
 <li><strong>Audio/media access:</strong> used where Android media access is needed for supported media functionality.</li>
 <li><strong>Notifications:</strong> used to show download progress and status and, if you allow them, push notifications about app updates, new features and maintenance (Firebase Cloud Messaging).</li>
 <li><strong>Internet/network state:</strong> used for online media resolution, browser features, playback of remote media, downloads, Firebase services and ad delivery.</li>
+<li><strong>Billing (com.android.vending.BILLING):</strong> lets the app talk to Google Play to show prices, complete Premium purchases and restore them.</li>
 <li><strong>Advertising ID (AD_ID):</strong> lets Google AdMob use the device advertising ID for ad delivery, measurement and fraud prevention. You can reset or delete it in Android settings.</li>
 </ul>
 <p>You can review or revoke Android permissions at any time from the app's Android settings page. Some features may stop working when their required permission is unavailable.</p>
 </article>
 
 <article class="card" id="vault">
-<h2>7. Private Vault</h2>
+<h2>8. Private Vault</h2>
 <p>Videos imported into the MediaVault Private Vault are stored in the app's private storage and encrypted using Android Keystore-backed cryptographic keys. The Vault is intended to keep protected media separate from ordinary device media access.</p>
 <p>Vault content is not uploaded to a MediaVault account because the app does not require an account for the Vault. Temporary playback files may be created inside the app's private cache while protected content is being played and are subject to automatic cleanup.</p>
 <div class="note"><strong>Important:</strong> no software can guarantee absolute security. Keep your Android device protected with a secure screen lock and install updates from trusted sources.</div>
 </article>
 
 <article class="card" id="storage">
-<h2>8. Storage, retention and deletion</h2>
+<h2>9. Storage, retention and deletion</h2>
 <p>MediaVault keeps local app data for as long as needed to provide the features you use, unless you remove it sooner. Download history, local metadata and Vault content can be removed through the app's available controls. Android's app-data controls can also be used to clear app data.</p>
 <p>Uninstalling MediaVault normally removes its private app storage. Files that you explicitly saved to shared/device storage may remain until you delete them yourself.</p>
 <p>When an online resolver or third-party website is involved, retention of server-side network logs or submitted URLs is controlled by that service's operational practices and applicable policy. MediaVault does not claim control over retention by independent third-party services.</p>
-<p>Data collected by Firebase and AdMob is retained by Google according to the retention settings we configure and Google's own policies. Deleting MediaVault's app data or uninstalling the app does not necessarily delete information that Google has already received; you can contact us (section 14) to ask about it.</p>
+<p>Data collected by Firebase and AdMob is retained by Google according to the retention settings we configure and Google's own policies. Deleting MediaVault's app data or uninstalling the app does not necessarily delete information that Google has already received; you can contact us (section 15) to ask about it.</p>
 </article>
 
 <article class="card" id="sharing">
-<h2>9. Sharing and disclosure</h2>
+<h2>10. Sharing and disclosure</h2>
 <p>MediaVault does not sell your personal information for money. The app does not require a user account or maintain a social profile for the core app experience.</p>
-<p>The app shows ads through Google AdMob. Depending on your location and choices, the advertising ID and related technical data may be shared with Google and its advertising partners to show and measure ads. Some privacy laws describe this as "sharing" or "selling" data for targeted advertising; you can limit it using the controls in sections 5 and 12.</p>
-<p>Information may be processed by service providers when technically necessary to deliver a feature you request, such as a media resolver, web host, the network provider serving remote content, or Google for analytics, crash reporting, performance monitoring, remote configuration, push messaging and advertising. We may also disclose information when required by applicable law, legal process, or to protect the security and integrity of the service.</p>
+<p>The app shows ads through Google AdMob. Depending on your location and choices, the advertising ID and related technical data may be shared with Google and its advertising partners to show and measure ads. Some privacy laws describe this as "sharing" or "selling" data for targeted advertising; you can limit it using the controls in sections 5 and 13.</p>
+<p>Information may be processed by service providers when technically necessary to deliver a feature you request, such as a media resolver, web host, the network provider serving remote content, or Google for analytics, crash reporting, performance monitoring, remote configuration, push messaging, advertising and Google Play purchases. We may also disclose information when required by applicable law, legal process, or to protect the security and integrity of the service.</p>
 <p>Google may process data in countries other than your own, including the United States, under its own safeguards and terms.</p>
 <p>When you use Android's Share feature, the content you choose to share is handed to the Android sharing mechanism and the application you select. That recipient's privacy policy applies to its subsequent processing.</p>
 </article>
 
 <article class="card" id="security">
-<h2>10. Security</h2>
+<h2>11. Security</h2>
 <p>MediaVault uses Android platform security controls, private app storage and encryption for protected Vault content. Network requests to configured online services are made over supported HTTP/HTTPS connections; secure HTTPS should be used whenever the destination supports it.</p>
 <p>Security is a shared responsibility. Do not paste passwords, private credentials or other secrets into media URLs or public web pages.</p>
 </article>
 
 <article class="card" id="children">
-<h2>11. Children</h2>
+<h2>12. Children</h2>
 <p>MediaVault is a general-audience app and is not directed to children under 13 (or the minimum age required in your country). It is not designed to knowingly collect personal information from children, and ads are not intended to be shown on the basis of a child's data. Because the app's core experience is local-first and does not require an account, it does not intentionally create child profiles. Parents or guardians should supervise use of online browsing and third-party media services where appropriate.</p>
 </article>
 
 <article class="card" id="choices">
-<h2>12. Your choices and controls</h2>
+<h2>13. Your choices and controls</h2>
 <ul>
 <li>Grant only the Android media permissions you are comfortable providing.</li>
 <li>Revoke permissions from Android Settings at any time, including notifications.</li>
 <li>Reopen your ad consent choices from Settings &rarr; Ad privacy settings (where available), and reset your advertising ID or opt out of ads personalization in Android settings.</li>
+<li>Manage or cancel a subscription in Google Play (<em>Payments &amp; subscriptions</em>), and use <em>Restore Purchases</em> on the Premium screen to re-check your purchases.</li>
 <li>MediaVault does not currently include a separate in-app switch for analytics and crash reporting. To stop that data collection, uninstall the app, or contact us with a request.</li>
 <li>Remove download history entries using the app's management controls.</li>
 <li>Delete downloaded files when you no longer need them.</li>
@@ -216,12 +235,12 @@ li{margin:7px 0}
 </article>
 
 <article class="card" id="changes">
-<h2>13. Changes to this policy</h2>
+<h2>14. Changes to this policy</h2>
 <p>We may update this Privacy Policy when MediaVault's features, data practices or legal requirements change. The effective date at the top of this page will be updated when a new version is published.</p>
 </article>
 
 <article class="card" id="contact">
-<h2>14. Contact MediaVault</h2>
+<h2>15. Contact MediaVault</h2>
 <p>If you have a privacy question, request, concern or security report, contact:</p>
 <p><strong>MediaVault Support</strong><br>
 <a href="mailto:info@hscreatorssoftware.com">info@hscreatorssoftware.com</a></p>
